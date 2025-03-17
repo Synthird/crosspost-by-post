@@ -10,5 +10,7 @@ textarea {
 
 footer {
 	position: fixed;
-	bottom: 0;
+	bottom: 0.1em;
+	width: 100%;
+	text-align: center;
 }
