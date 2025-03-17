@@ -8,6 +8,10 @@ textarea {
 	resize: none;
 }
 
+.post-buttons {
+	margin-top: 0.1em;
+}
+
 footer {
 	position: fixed;
 	bottom: 0.1em;
