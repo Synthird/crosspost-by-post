@@ -11,10 +11,8 @@ textArea.addEventListener("input", () => {
 		switch (button.tagName) {
 			case "A":
 				const buttonLink = button.getAttribute("href");
-				const prefix = buttonLink.substring(0, buttonLink.indexOf(connectorURL));
-				const fullURL = `${prefix}${connectorURL}${textArea.value}`;
 
-				button.setAttribute("href", fullURL);
+				button.setAttribute("href", `${buttonLink.substring(0, buttonLink.indexOf(connectorURL))}${connectorURL}${textArea.value}`);
 				break;
 		}
 	}
