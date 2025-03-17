@@ -1,7 +1,3 @@
-html {
-	color-scheme: dark;
-}
-
 body, textarea {
 	font-size: large;
 }
@@ -18,7 +14,7 @@ textarea {
 
 a {
 	text-decoration: none;
-	color: light-dark(rgb(74, 148, 207), rgb(148, 196, 236));
+	color: rgb(74, 148, 207);
 }
 
 a:hover {
