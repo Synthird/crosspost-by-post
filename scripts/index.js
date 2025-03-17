@@ -1,7 +1,6 @@
 const textArea = document.getElementById("text-area");
 
-const buttonDiv = document.getElementById("post-buttons");
-const buttons = buttonDiv.children;
+const buttons = document.getElementById("post-buttons").children;
 
 const connectorURL = "=";
 
