@@ -1,11 +1,9 @@
-body, textarea {
+body, input[type="text"] {
 	font-size: large;
 }
 
-textarea {
+input[type="text"] {
 	width: 99.5%;
-	height: 11em;
-	resize: none;
 }
 
 div {
