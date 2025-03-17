@@ -1,0 +1,15 @@
+body, textarea {
+	font-size: large;
+}
+
+textarea {
+	width: 99.5%;
+	height: 20em;
+	resize: none;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
