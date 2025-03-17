@@ -1,6 +1,6 @@
 # Crosspost by post
 
-Crosspost on one platform at a time.
+Crosspost to one platform at a time.
 
 ## Third-party links used
 
