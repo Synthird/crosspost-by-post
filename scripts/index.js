@@ -3,6 +3,8 @@ const textArea = document.getElementById("text-area");
 const buttonDiv = document.getElementById("post-buttons");
 const buttons = buttonDiv.children;
 
+const connectorURL = "=";
+
 textArea.addEventListener("input", () => {
 	for (let elementIndex = 0; elementIndex < buttons.length; elementIndex++) {
 		const button = buttons[elementIndex];
@@ -10,8 +12,8 @@ textArea.addEventListener("input", () => {
 		switch (button.tagName) {
 			case "A":
 				const buttonLink = button.getAttribute("href");
-				const prefix = buttonLink.substring(0, buttonLink.indexOf("="));
-				const fullURL = `${prefix}=${textArea.value}`;
+				const prefix = buttonLink.substring(0, buttonLink.indexOf(connectorURL));
+				const fullURL = `${prefix}${connectorURL}${textArea.value}`;
 
 				button.setAttribute("href", fullURL);
 				break;
