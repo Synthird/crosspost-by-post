@@ -1,4 +1,4 @@
-const textArea = document.getElementById("text-area");
+const textArea = document.querySelector("input[type='text']");
 
 const buttons = document.getElementById("post-buttons").children;
 
