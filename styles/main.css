@@ -1,3 +1,7 @@
+:root {
+	color-scheme: light dark;
+}
+
 body, textarea {
 	font-size: large;
 }
@@ -14,15 +18,19 @@ div {
 
 a {
 	text-decoration: none;
-	color: rgb(74, 148, 207);
+	color: light-dark(rgb(74, 148, 207), rgb(148, 196, 236));
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
+.change-theme div {
+	line-height: 1.6;
+}
+
 footer {
-	background-color: white;
+	background-color: Canvas;
 	position: fixed;
 	bottom: 0.1em;
 	width: 100%;
