@@ -22,7 +22,7 @@ div {
 
 a {
 	text-decoration: none;
-	color: light-dark(rgb(74, 148, 207), rgb(148, 196, 236));
+	color: light-dark(rgb(87, 155, 210), rgb(166, 206, 240));
 }
 
 a:hover {
