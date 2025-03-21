@@ -29,7 +29,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.change-theme div {
+.change-theme div, .note {
 	line-height: 1.6;
 }
 
