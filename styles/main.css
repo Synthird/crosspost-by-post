@@ -6,6 +6,10 @@ body, textarea {
 	font-size: large;
 }
 
+body {
+	font-family: monospace;
+}
+
 textarea {
 	width: 99.5%;
 	height: 11em;
