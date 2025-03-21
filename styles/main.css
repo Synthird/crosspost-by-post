@@ -2,8 +2,10 @@ body, input[type="text"] {
 	font-size: large;
 }
 
-input[type="text"] {
+textarea {
 	width: 99.5%;
+	height: 11em;
+	resize: none;
 }
 
 div {
