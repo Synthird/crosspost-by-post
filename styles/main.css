@@ -21,7 +21,7 @@ div {
 
 a {
 	text-decoration: none;
-	color: light-dark(rgb(87, 155, 210), rgb(166, 206, 240));
+	color: light-dark(rgb(114, 177, 227), rgb(166, 206, 240));
 }
 
 a:hover {
