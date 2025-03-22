@@ -14,7 +14,7 @@ function setTheme(themeName) {
 	root.style.colorScheme = themeName;
 }
 
-// Typing in the textarea for changing the button links
+// Changing button links by typing in the textarea
 textArea.addEventListener("keyup", () => {
 	for (let elementIndex = 0; elementIndex < buttons.length; elementIndex++) {
 		const button = buttons[elementIndex];
