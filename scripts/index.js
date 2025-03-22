@@ -15,7 +15,7 @@ function setTheme(themeName) {
 }
 
 // Changing button links by typing in the textarea
-textArea.addEventListener("keyup", () => {
+textArea.addEventListener("input", () => {
 	for (let elementIndex = 0; elementIndex < buttons.length; elementIndex++) {
 		const button = buttons[elementIndex];
 
