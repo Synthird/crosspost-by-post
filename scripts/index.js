@@ -21,11 +21,12 @@ textArea.addEventListener("input", () => {
 
 		switch (button.tagName) {
 			case "A":
+				// Link pieces
 				const buttonLink = button.getAttribute("href");
 				const linkSubstring = buttonLink.slice(0, buttonLink.indexOf(connectorURL));
-
 				const text = encodeURIComponent(textArea.value);
 
+				// Change button links
 				button.setAttribute("href", `${linkSubstring}${connectorURL}${text}`);
 				break;
 		}
