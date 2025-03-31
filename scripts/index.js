@@ -36,7 +36,7 @@ textArea.addEventListener("input", () => {
 // Changing themes
 
 browserThemeOption.addEventListener("click", () => {
-	setTheme("light dark")
+	setTheme("light dark");
 });
 
 darkThemeOption.addEventListener("click", () => {
