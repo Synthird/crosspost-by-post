@@ -15,7 +15,7 @@ textarea {
 	height: 11em;
 }
 
-div {
+.post-buttons {
 	margin-top: 0.3em;
 }
 
@@ -28,7 +28,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.change-theme div, .note {
+.change-theme div, li {
 	line-height: 1.6;
 }
 
