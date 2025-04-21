@@ -8,7 +8,7 @@ const browserThemeOption = document.getElementById("browser-theme");
 const darkThemeOption = document.getElementById("dark-theme");
 const lightThemeOption = document.getElementById("light-theme");
 
-const connectorURL = "=";
+const linkConnector = "=";
 
 function setTheme(themeName) {
 	root.style.colorScheme = themeName;
@@ -23,11 +23,11 @@ textArea.addEventListener("input", () => {
 			case "A":
 				// Link pieces
 				const buttonLink = button.getAttribute("href");
-				const beginningLink = buttonLink.slice(0, buttonLink.indexOf(connectorURL));
+				const beginningLink = buttonLink.slice(0, buttonLink.indexOf(linkConnector));
 				const text = encodeURIComponent(textArea.value);
 
 				// Change button links
-				button.setAttribute("href", `${beginningLink}${connectorURL}${text}`);
+				button.setAttribute("href", `${beginningLink}${linkConnector}${text}`);
 				break;
 		}
 	}
