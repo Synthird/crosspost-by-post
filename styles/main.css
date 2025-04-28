@@ -22,6 +22,7 @@ textarea {
 a {
 	text-decoration: none;
 	color: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
+	display: inline-block;
 }
 
 a:hover {
