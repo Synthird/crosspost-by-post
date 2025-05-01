@@ -1,5 +1,4 @@
 const textArea = document.querySelector("textarea");
-const root = document.querySelector(":root");
 
 const buttons = document.getElementById("post-buttons").children;
 
