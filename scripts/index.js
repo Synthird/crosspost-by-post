@@ -3,11 +3,6 @@ const root = document.querySelector(":root");
 
 const buttons = document.getElementById("post-buttons").children;
 
-// Theme options
-const browserThemeOption = document.getElementById("browser-theme");
-const darkThemeOption = document.getElementById("dark-theme");
-const lightThemeOption = document.getElementById("light-theme");
-
 const linkConnector = "=";
 
 function setTheme(themeName) {
@@ -31,18 +26,4 @@ textArea.addEventListener("input", () => {
 				break;
 		}
 	}
-});
-
-// Changing themes
-
-browserThemeOption.addEventListener("click", () => {
-	setTheme("light dark");
-});
-
-darkThemeOption.addEventListener("click", () => {
-	setTheme("dark");
-});
-
-lightThemeOption.addEventListener("click", () => {
-	setTheme("light");
 });

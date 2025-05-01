@@ -1,5 +1,13 @@
-:root {
+:root:has(input[id="browser-theme"]:checked) {
 	color-scheme: light dark;
+}
+
+:root:has(input[id="dark-theme"]:checked) {
+	color-scheme: dark;
+}
+
+:root:has(input[id="light-theme"]:checked) {
+	color-scheme: light;
 }
 
 body, textarea {
