@@ -5,10 +5,6 @@ const buttons = document.getElementById("post-buttons").children;
 
 const linkConnector = "=";
 
-function setTheme(themeName) {
-	root.style.colorScheme = themeName;
-}
-
 // Changing button links by typing in the textarea
 textArea.addEventListener("input", () => {
 	for (let elementIndex = 0; elementIndex < buttons.length; elementIndex++) {
