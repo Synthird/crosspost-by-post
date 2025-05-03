@@ -1,3 +1,7 @@
+:root {
+	--foreground-colour: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
+}
+
 :root:has(input[id="browser-theme"]:checked) {
 	color-scheme: light dark;
 }
@@ -27,9 +31,13 @@ textarea {
 	margin-top: 0.4em;
 }
 
+input[type="radio"] {
+	accent-color: var(--foreground-colour);
+}
+
 a {
 	text-decoration: none;
-	color: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
+	color: var(--foreground-colour);
 	display: inline-block;
 }
 
