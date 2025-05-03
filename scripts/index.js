@@ -4,7 +4,6 @@ const buttons = document.getElementById("post-buttons").children;
 
 const linkConnector = "=";
 
-// Changing button links by typing in the textarea
 textArea.addEventListener("input", () => {
 	for (let elementIndex = 0; elementIndex < buttons.length; elementIndex++) {
 		const button = buttons[elementIndex];
