@@ -1,5 +1,5 @@
 :root {
-	--foreground-colour: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
+	--secondary-colour: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
 }
 
 :root:has(input[id="browser-theme"]:checked) {
@@ -32,12 +32,12 @@ textarea {
 }
 
 input[type="radio"] {
-	accent-color: var(--foreground-colour);
+	accent-color: var(--secondary-colour);
 }
 
 a {
 	text-decoration: none;
-	color: var(--foreground-colour);
+	color: var(--secondary-colour);
 	display: inline-block;
 }
 
