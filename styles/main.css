@@ -27,7 +27,7 @@ textarea {
 	height: 11em;
 }
 
-.post-buttons {
+[id="post-buttons"] {
 	margin-top: 0.4em;
 }
 
