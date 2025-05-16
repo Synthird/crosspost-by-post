@@ -15,7 +15,7 @@ textArea.addEventListener("input", () => {
 				const beginningLink = buttonLink.slice(0, buttonLink.indexOf(linkConnector));
 				const text = encodeURIComponent(textArea.value);
 
-				// Change button links
+				// Change links
 				button.setAttribute("href", `${beginningLink}${linkConnector}${text}`);
 				break;
 		}
