@@ -5,8 +5,8 @@ const buttons = document.getElementById("post-buttons").children;
 const linkConnector = "=";
 
 textArea.addEventListener("input", () => {
-	for (let elementIndex = 0; elementIndex < buttons.length; elementIndex++) {
-		const button = buttons[elementIndex];
+	for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
+		const button = buttons[buttonIndex];
 
 		switch (button.tagName) {
 			case "A":
