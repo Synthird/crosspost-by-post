@@ -1,8 +1,5 @@
 :root {
 	--secondary-colour: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
-}
-
-:root:has(input[id="browser-theme"]:checked) {
 	color-scheme: light dark;
 }
 
