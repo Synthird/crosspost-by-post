@@ -1,5 +1,4 @@
 const textArea = document.querySelector("textarea");
-
 const buttons = document.getElementById("post-buttons").children;
 
 const linkConnector = "=";
