@@ -1,7 +1,6 @@
-const textArea = document.querySelector("textarea");
-const buttons = document.getElementById("post-buttons").children;
-
-const linkConnector = "=";
+const textArea = document.querySelector("textarea"),
+	buttons = document.getElementById("post-buttons").children,
+	linkConnector = "=";
 
 textArea.addEventListener("input", () => {
 	for (const button of buttons) {
