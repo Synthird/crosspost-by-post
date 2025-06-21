@@ -3,11 +3,11 @@
 	color-scheme: light dark;
 }
 
-:root:has(input[id="dark-theme"]:checked) {
+:root:has(input[id="dark"]:checked) {
 	color-scheme: dark;
 }
 
-:root:has(input[id="light-theme"]:checked) {
+:root:has(input[id="light"]:checked) {
 	color-scheme: light;
 }
 
