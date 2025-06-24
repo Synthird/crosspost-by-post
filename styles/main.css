@@ -22,10 +22,7 @@ body {
 textarea {
 	width: 99.5%;
 	height: 11em;
-}
-
-[id="post-buttons"] {
-	margin-top: 0.4em;
+	margin-bottom: 0.4em;
 }
 
 input[type="radio"] {
