@@ -7,9 +7,9 @@ textArea.addEventListener("input", () => {
 		switch (button.tagName) {
 			case "A":
 				// Link pieces
-				const buttonLink = button.getAttribute("href");
-				const beginningLink = buttonLink.slice(0, buttonLink.indexOf(linkConnector));
-				const text = encodeURIComponent(textArea.value);
+				const buttonLink = button.getAttribute("href"),
+					beginningLink = buttonLink.slice(0, buttonLink.indexOf(linkConnector)),
+					text = encodeURIComponent(textArea.value);
 
 				// Change links
 				button.setAttribute("href", `${beginningLink}${linkConnector}${text}`);
