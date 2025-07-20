@@ -1,6 +1,5 @@
 const textArea = document.querySelector("textarea"),
-	buttons = document.getElementById("post-buttons").children,
-	linkConnector = "=";
+	buttons = document.getElementById("post-buttons").children;
 
 textArea.addEventListener("input", () => {
 	for (const button of buttons) {
@@ -8,11 +7,11 @@ textArea.addEventListener("input", () => {
 			case "A":
 				// Link pieces
 				const buttonLink = button.getAttribute("href"),
-					beginningLink = buttonLink.slice(0, buttonLink.indexOf(linkConnector)),
+					beginningLink = buttonLink.slice(0, buttonLink.indexOf("=") + 1),
 					text = encodeURIComponent(textArea.value);
 
 				// Change links
-				button.setAttribute("href", `${beginningLink}${linkConnector}${text}`);
+				button.setAttribute("href", `${beginningLink}${text}`);
 				break;
 		}
 	}
