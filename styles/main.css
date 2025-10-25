@@ -1,4 +1,5 @@
 :root {
+	--background-colour: light-dark(rgb(237, 237, 237), rgb(28, 27, 34));
 	--secondary-colour: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
 	color-scheme: light dark;
 }
@@ -16,6 +17,7 @@ body, textarea {
 }
 
 body {
+	background-color: var(--background-colour);
 	font-family: monospace;
 }
 
@@ -48,7 +50,7 @@ a:hover {
 }
 
 footer {
-	background-color: canvas;
+	background-color: var(--background-colour);
 	position: fixed;
 	bottom: 0;
 	width: 100%;
