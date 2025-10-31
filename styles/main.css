@@ -1,6 +1,6 @@
 :root {
 	--background-colour: light-dark(rgb(237, 237, 237), rgb(28, 27, 34));
-	--secondary-colour: light-dark(rgb(64, 123, 170), rgb(166, 206, 240));
+	--secondary-colour: light-dark(rgb(58, 109, 151), rgb(166, 206, 240));
 	color-scheme: light dark;
 }
 
@@ -10,6 +10,11 @@
 
 :root:has(input[id="light"]:checked) {
 	color-scheme: light;
+}
+
+::selection {
+	background-color: var(--secondary-colour);
+	color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));
 }
 
 body, textarea {
