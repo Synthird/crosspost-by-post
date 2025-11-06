@@ -21,6 +21,10 @@ body, textarea {
 	font-size: large;
 }
 
+img, span {
+	border-radius: 0.2em;
+}
+
 body {
 	background-color: var(--background-colour);
 	font-family: monospace;
@@ -29,17 +33,12 @@ body {
 span {
 	background-color: light-dark(rgb(206, 206, 206), rgb(73, 73, 73));
 	padding: 0.2%;
-	border-radius: 0.2em;
 }
 
 textarea {
 	width: 99.5%;
 	height: 11em;
 	margin-bottom: 0.4em;
-}
-
-img {
-	border-radius: 0.2em;
 }
 
 input[type="radio"] {
