@@ -14,7 +14,7 @@
 
 ::selection {
 	background-color: var(--secondary-colour);
-	color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));
+	color: light-dark(white, black);
 }
 
 body, textarea {
