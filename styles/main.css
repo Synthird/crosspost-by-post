@@ -63,7 +63,7 @@ img:hover {
 	line-height: 1.6;
 }
 
-.emoji-hotkeys, .emoji-hotkeys li {
+.emoji-hotkeys li {
 	list-style-type: none;
 	line-height: 2.45;
 }
