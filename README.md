@@ -2,7 +2,7 @@
 
 Post to one social media platform at a time.
 
-## Third-party links used
+## Giving credit
 
 - [Tootpick](https://github.com/Juerd/tootpick) for the posting to Mastodon functionality.
 - [Shields.io](https://shields.io) for button creation.
