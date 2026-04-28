@@ -12,11 +12,6 @@
 	color-scheme: light;
 }
 
-::selection {
-	background-color: var(--secondary-colour);
-	color: light-dark(white, black);
-}
-
 body, textarea {
 	font-size: large;
 }
