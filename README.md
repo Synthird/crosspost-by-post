@@ -9,4 +9,4 @@ Post to one social media platform at a time.
 
 ## License
 
-This repository contains the Mozilla Public License. You must give credit if you are going to use its source code, and open source any changes you made.
+This repository contains the Mozilla Public License version 2.0. You must give credit if you are going to use its source code, and open source any changes you made.
