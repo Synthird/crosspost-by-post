@@ -2,6 +2,12 @@
 
 Post to one social media platform at a time.
 
+## How it works
+
+Every time you type in the textbox, the links in the buttons are updated to contain the text you typed in.
+
+The said links are the same ones used in the "share to/on social media" buttons you see in some websites.
+
 ## Giving credit
 
 - [Tootpick](https://github.com/Juerd/tootpick) for the posting to Mastodon functionality.
