@@ -70,3 +70,9 @@ footer {
 	width: 100%;
 	text-align: center;
 }
+
+@media (scripting: none) {
+	textarea, [id="post-buttons"] {
+		display: none;
+	}
+}
