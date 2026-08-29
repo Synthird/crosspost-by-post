@@ -72,7 +72,7 @@ footer {
 }
 
 @media (scripting: none) {
-	textarea, [id="post-buttons"] {
+	div:has(textarea), [id="post-buttons"] {
 		display: none;
 	}
 }
